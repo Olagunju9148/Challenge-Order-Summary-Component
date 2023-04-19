@@ -1,0 +1,126 @@
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+}
+
+.content {
+    width: 52%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 45px;
+    margin: 0 auto;
+}
+
+.hero-svg img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52%;
+    border: 1px solid transparent;
+    border-radius: 20px 20px 0 0;
+}
+
+#title  {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 80px;
+    color: hsl(223, 47%, 23%);
+}
+
+.info {
+    padding: 0 40px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.input p {
+    display: flex;
+    flex-direction: column;
+    line-height: 23px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-weight: normal;
+}
+
+.input a {
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.button {
+    margin-top: 30px;
+    padding: 15px 85px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 15px 15px hsl(225, 100%, 94%);
+}
+
+.order {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.order, .button:hover {
+    cursor: pointer;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+    line-height: 50px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 600px) {
+    body {
+        background: url(/images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 250cqw;
+        background-color: hsl(225, 100%, 94%);
+        min-height: 100vh;
+        min-width: 700px;
+    }
+    .container {
+        margin-top: 250px;
+    }
+}
