@@ -113,7 +113,7 @@ body {
 
 @media (max-width: 600px) {
     body {
-        background: url(/images/pattern-background-mobile.svg);
+        background: url(/images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
         background-size: 250cqw;
         background-color: hsl(225, 100%, 94%);
