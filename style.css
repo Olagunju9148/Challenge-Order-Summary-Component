@@ -115,7 +115,7 @@ body {
     body {
         background: url(/images/pattern-background-mobile.svg);
         background-repeat: no-repeat;
-        background-size: 200cqw;
+        background-size: 250cqw;
         background-color: hsl(225, 100%, 94%);
         min-height: 100vh;
         min-width: 700px;
