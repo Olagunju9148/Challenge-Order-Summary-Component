@@ -115,12 +115,12 @@ body {
     body {
         background: url(/images/pattern-background-mobile.svg);
         background-repeat: no-repeat;
-        background-size: 250cqw;
+        background-size: 350cqw;
         background-color: hsl(225, 100%, 94%);
         min-height: 100vh;
         min-width: 700px;
     }
     .container {
-        margin-top: 250px;
+        margin-top: 100px;
     }
 }
