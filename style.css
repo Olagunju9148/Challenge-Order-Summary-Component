@@ -113,13 +113,25 @@ body {
 
 @media (max-width: 600px) {
     body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background: url(/images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
+        background-size: 250cqw;
         background-color: hsl(225, 100%, 94%);
         min-height: 100vh;
         min-width: 700px;
     }
     .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         margin-top: 100px;
+    }
+    
+    .hero-svg {
+        width: 100%;
     }
 }
